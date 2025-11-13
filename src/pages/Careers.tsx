@@ -99,7 +99,7 @@ export default function Careers() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fadeInDown">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Join Nexus?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Join CA Site?</h2>
             <p className="text-xl text-gray-600">Build your career with industry leaders</p>
           </div>
 
@@ -197,7 +197,7 @@ export default function Careers() {
               {
                 name: 'Sarah Johnson',
                 role: 'Senior Auditor',
-                quote: 'Nexus has provided me with incredible growth opportunities and a supportive team environment.',
+                quote: 'CA Site has provided me with incredible growth opportunities and a supportive team environment.',
                 image: 'https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=600',
                 delay: 'stagger-delay-1',
               },

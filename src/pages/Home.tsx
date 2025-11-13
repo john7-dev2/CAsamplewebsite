@@ -4,48 +4,48 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   const services = [
     {
-      icon: Shield,
-      title: 'Audit & Assurance',
-      description: 'Comprehensive audit solutions ensuring compliance and building trust.',
+      icon: Lightbulb,
+      title: 'Tax Planning & Advisory',
+      description: 'Expert guidance on tax optimization and compliance strategies.',
       delay: 'stagger-delay-1',
     },
     {
-      icon: Lightbulb,
-      title: 'Tax Advisory',
-      description: 'Expert guidance on tax planning and regulatory compliance.',
+      icon: TrendingUp,
+      title: 'Investment Advisory',
+      description: 'Strategic investment planning for wealth building and growth.',
       delay: 'stagger-delay-2',
     },
     {
-      icon: TrendingUp,
-      title: 'Financial Advisory',
-      description: 'Strategic financial planning for sustainable growth.',
-      delay: 'stagger-delay-3',
-    },
-    {
       icon: Calculator,
-      title: 'Accounting Services',
-      description: 'Accurate bookkeeping and financial reporting solutions.',
-      delay: 'stagger-delay-4',
-    },
-    {
-      icon: Users,
-      title: 'Business Consulting',
-      description: 'Expert advice on restructuring and efficiency.',
-      delay: 'stagger-delay-5',
+      title: 'Financial Planning',
+      description: 'Comprehensive financial planning for individuals and businesses.',
+      delay: 'stagger-delay-3',
     },
     {
       icon: BarChart3,
       title: 'Financial Analysis',
-      description: 'In-depth analysis for informed decision making.',
-      delay: 'stagger-delay-1',
+      description: 'In-depth financial analysis for informed decision making.',
+      delay: 'stagger-delay-4',
+    },
+    {
+      icon: Shield,
+      title: 'Risk Management',
+      description: 'Identifying and mitigating financial risks effectively.',
+      delay: 'stagger-delay-5',
+    },
+    {
+      icon: Users,
+      title: 'Financial Education',
+      description: 'Making complex financial concepts simple and actionable.',
+      delay: 'stagger-delay-6',
     },
   ];
 
   const stats = [
-    { number: '500+', label: 'Clients Served', delay: 'stagger-delay-1' },
-    { number: '25+', label: 'Years Experience', delay: 'stagger-delay-2' },
-    { number: '98%', label: 'Client Satisfaction', delay: 'stagger-delay-3' },
-    { number: '$10B+', label: 'Assets Managed', delay: 'stagger-delay-4' },
+    { number: '100+', label: 'Clients Helped', delay: 'stagger-delay-1' },
+    { number: '5+', label: 'Years Experience', delay: 'stagger-delay-2' },
+    { number: '95%', label: 'Client Satisfaction', delay: 'stagger-delay-3' },
+    { number: '₹50L+', label: 'Tax Savings Achieved', delay: 'stagger-delay-4' },
   ];
 
   return (
@@ -60,11 +60,11 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight animate-fadeInLeft">
-                Financial Clarity.
-                <span className="text-amber-600"> Powerful Growth</span>
+                CA Mukander
+                <span className="text-amber-600"> Beniwal</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-fadeInLeft stagger-delay-1">
-                Your strategic partner in navigating complex financial landscapes and achieving sustainable business growth.
+                Expert guidance in Finance, Taxation, and Investing. Making complex financial concepts simple and actionable for everyone.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 animate-fadeInLeft stagger-delay-2">
                 <Link
@@ -78,7 +78,7 @@ export default function Home() {
                   to="/contact"
                   className="border-2 border-slate-800 text-slate-800 px-8 py-4 rounded-full font-semibold hover:bg-slate-800 hover:text-white transition-all"
                 >
-                  Get In Touch
+                  Connect on Instagram
                 </Link>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fadeInLeft">
-              <h2 className="text-4xl font-bold mb-6">Why Choose Nexus?</h2>
+              <h2 className="text-4xl font-bold mb-6">Why Choose CA Site?</h2>
               <ul className="space-y-4">
                 {[
                   'Expert team with 25+ years of combined experience',

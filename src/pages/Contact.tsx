@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, Instagram } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -31,24 +31,24 @@ export default function Contact() {
 
   const contactInfo = [
     {
-      icon: Phone,
-      title: 'Phone',
-      details: '+1 (555) 123-4567',
-      subtext: 'Mon-Fri: 9AM-6PM EST',
+      icon: Instagram,
+      title: 'Instagram',
+      details: 'Send me a DM',
+      subtext: 'Preferred contact method - Quick responses!',
       delay: 'stagger-delay-1',
     },
     {
       icon: Mail,
       title: 'Email',
-      details: 'contact@nexusca.com',
-      subtext: 'Response within 24 hours',
+      details: 'Available for inquiries',
+      subtext: 'For detailed discussions',
       delay: 'stagger-delay-2',
     },
     {
-      icon: MapPin,
-      title: 'Office',
-      details: '123 Financial Ave, NY 10001',
-      subtext: 'New York, United States',
+      icon: Phone,
+      title: 'Consultation',
+      details: 'Schedule a call',
+      subtext: 'For personalized financial advice',
       delay: 'stagger-delay-3',
     },
   ];
@@ -60,9 +60,9 @@ export default function Contact() {
           <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500 rounded-full filter blur-3xl animate-float"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <h1 className="text-5xl lg:text-6xl font-bold mb-6 animate-fadeInDown">Get In Touch</h1>
+          <h1 className="text-5xl lg:text-6xl font-bold mb-6 animate-fadeInDown">Let's Connect</h1>
           <p className="text-xl text-gray-300 max-w-2xl animate-fadeInLeft">
-            Let's discuss how we can help your business achieve its financial goals
+            Have questions about Finance, Taxation, or Investing? I'm here to help!
           </p>
         </div>
       </section>

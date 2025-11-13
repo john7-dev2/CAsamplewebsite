@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-12 animate-fadeInUp">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-amber-500">NEXUSCA</h3>
+            <h3 className="text-xl font-bold mb-4 text-amber-500">CA Site</h3>
             <p className="text-gray-400 leading-relaxed">
               Your trusted partner in financial excellence and business growth.
             </p>
@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center space-x-2">
                 <Mail size={18} className="text-amber-500" />
-                <span>contact@nexusca.com</span>
+                <span>contact@casite.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={18} className="text-amber-500" />
@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400 text-sm">© 2024 Nexus Chartered Accountants. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2024 CA Site. All rights reserved.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-amber-500 transition-colors">
                 <Linkedin size={20} />

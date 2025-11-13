@@ -4,59 +4,26 @@ export default function About() {
   const values = [
     {
       icon: Award,
-      title: 'Excellence',
-      description: 'Delivering superior quality in every engagement',
+      title: 'Finance',
+      description: 'Comprehensive financial planning and advisory services',
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'Building strong partnerships with our clients',
+      title: 'Taxation',
+      description: 'Expert guidance on tax planning and compliance',
     },
     {
       icon: Target,
-      title: 'Focus',
-      description: 'Dedicated to your financial success',
+      title: 'Investing',
+      description: 'Strategic investment advice for wealth building',
     },
     {
       icon: Zap,
-      title: 'Innovation',
-      description: 'Leveraging cutting-edge solutions',
+      title: 'Education',
+      description: 'Making complex financial concepts simple and actionable',
     },
   ];
 
-  const team = [
-    {
-      name: 'Rajesh Sharma',
-      role: 'Founder & Managing Director',
-      image: 'https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=600',
-      delay: 'stagger-delay-1',
-    },
-    {
-      name: 'Priya Patel',
-      role: 'Senior Audit Partner',
-      image: 'https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=600',
-      delay: 'stagger-delay-2',
-    },
-    {
-      name: 'Amit Verma',
-      role: 'Tax & Advisory Head',
-      image: 'https://images.pexels.com/photos/3777572/pexels-photo-3777572.jpeg?auto=compress&cs=tinysrgb&w=600',
-      delay: 'stagger-delay-3',
-    },
-    {
-      name: 'Lisa Chen',
-      role: 'Consulting Director',
-      image: 'https://images.pexels.com/photos/3775191/pexels-photo-3775191.jpeg?auto=compress&cs=tinysrgb&w=600',
-      delay: 'stagger-delay-4',
-    },
-  ];
-
-  const milestones = [
-    { year: '1998', event: 'Company Founded', delay: 'stagger-delay-1' },
-    { year: '2005', event: '100+ Clients Milestone', delay: 'stagger-delay-2' },
-    { year: '2012', event: 'Expanded to 5 Cities', delay: 'stagger-delay-3' },
-    { year: '2020', event: '500+ Happy Clients', delay: 'stagger-delay-4' },
-  ];
 
   return (
     <div className="page-enter">
@@ -65,9 +32,9 @@ export default function About() {
           <div className="absolute top-20 right-20 w-96 h-96 bg-amber-500 rounded-full filter blur-3xl animate-float"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <h1 className="text-5xl lg:text-6xl font-bold mb-6 animate-fadeInDown">About Nexus</h1>
+          <h1 className="text-5xl lg:text-6xl font-bold mb-6 animate-fadeInDown">About CA Mukander Beniwal</h1>
           <p className="text-xl text-gray-300 max-w-2xl animate-fadeInLeft">
-            Your trusted partner in financial excellence since 1998
+            Your trusted expert in Finance, Taxation, and Investing
           </p>
         </div>
       </section>
@@ -76,16 +43,21 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fadeInLeft">
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">About CA Mukander Beniwal</h2>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                Founded in 1998, Nexus Chartered Accountants has grown from a small practice to a leading financial advisory firm. Our journey reflects our commitment to delivering exceptional value to our clients.
+                Hello Everyone! My name is CA Mukander Beniwal, and I'm passionate about helping individuals and businesses navigate the complex world of finance, taxation, and investing.
               </p>
               <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                With over 25 years of experience, we have built a reputation for expertise, integrity, and innovation in the financial services industry.
+                My content focuses on three core areas: <strong>Finance</strong>, <strong>Taxation</strong>, and <strong>Investing</strong>. I believe in making financial concepts accessible and actionable for everyone, regardless of their background or experience level.
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Today, we serve over 500 clients across various industries, from startups to Fortune 500 companies, helping them navigate complex financial challenges and achieve their goals.
+              <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+                Whether you're looking to understand tax implications, make smart investment decisions, or improve your financial planning, I'm here to guide you through every step of the journey.
               </p>
+              <div className="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-lg">
+                <p className="text-lg text-gray-700 font-medium">
+                  Have questions about my content? Feel free to DM me on Instagram - I'd love to help answer your queries!
+                </p>
+              </div>
             </div>
             <div className="relative group animate-fadeInRight">
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-orange-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur"></div>
@@ -102,8 +74,8 @@ export default function About() {
       <section className="py-20 bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fadeInDown">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
-            <p className="text-xl text-gray-600">What drives everything we do</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">My Expertise</h2>
+            <p className="text-xl text-gray-600">Areas where I can help you succeed</p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8">
@@ -126,68 +98,52 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 animate-fadeInDown">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Journey</h2>
-            <p className="text-xl text-gray-600">Milestones that define our success</p>
-          </div>
-
-          <div className="relative">
-            <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-amber-500 to-orange-500"></div>
-
-            <div className="space-y-12">
-              {milestones.map((milestone, idx) => (
-                <div
-                  key={idx}
-                  className={`flex gap-8 items-center ${idx % 2 === 0 ? 'md:flex-row-reverse' : ''} animate-fadeInUp ${milestone.delay}`}
-                >
-                  <div className="flex-1 md:text-right">
-                    <h3 className="text-2xl font-bold text-gray-900">{milestone.year}</h3>
-                    <p className="text-lg text-gray-600">{milestone.event}</p>
-                  </div>
-                  <div className="hidden md:flex w-8 h-8 bg-white border-4 border-amber-500 rounded-full relative z-10 items-center justify-center">
-                    <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-                  </div>
-                  <div className="flex-1">
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="py-20 bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fadeInDown">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Leadership Team</h2>
-            <p className="text-xl text-gray-600">Experienced professionals dedicated to your success</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Connect With Me</h2>
+            <p className="text-xl text-gray-600">Let's discuss your financial goals and questions</p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
-            {team.map((member, idx) => (
-              <div
-                key={idx}
-                className={`group cursor-pointer animate-fadeInUp ${member.delay}`}
-              >
-                <div className="relative overflow-hidden rounded-xl mb-4 h-64">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                    <div className="text-white">
-                      <p className="font-semibold">{member.name}</p>
-                      <p className="text-sm text-gray-200">{member.role}</p>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 animate-fadeInUp">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-4">CA Mukander Beniwal</h3>
+                  <p className="text-lg text-gray-600 mb-6">
+                    Chartered Accountant specializing in Finance, Taxation, and Investing. I'm passionate about helping people make informed financial decisions and build wealth through smart strategies.
+                  </p>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
+                      <span className="text-gray-700">Finance & Financial Planning</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
+                      <span className="text-gray-700">Taxation & Tax Planning</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
+                      <span className="text-gray-700">Investment Advisory</span>
                     </div>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
-                <p className="text-gray-600">{member.role}</p>
+                <div className="text-center">
+                  <div className="bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl p-8">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Have Questions?</h4>
+                    <p className="text-gray-600 mb-6">
+                      If you have any queries regarding my content on finance, taxation, or investing, feel free to reach out!
+                    </p>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <p className="text-sm text-gray-500 mb-2">Connect with me on</p>
+                      <p className="text-xl font-bold text-pink-600">Instagram</p>
+                      <p className="text-sm text-gray-600 mt-2">Send me a DM - I'd love to help!</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
